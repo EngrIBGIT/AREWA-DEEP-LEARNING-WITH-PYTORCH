@@ -8,7 +8,7 @@
 import pandas as pd
 
 
-# ## Extract data from website(woldometer)
+# ## Extract data from website(worldometer)
 
 # In[2]:
 
@@ -107,14 +107,13 @@ from sqlalchemy import create_engine # To efficiently manage and reuse database 
 
 from sqlalchemy import create_engine
 username = 'postgres'
-password = 'Gospel7763@'
+password = '***********'
 host = 'localhost'
 port = 5432
 db_name = 'Naija_Population'
 
 
 # In[15]:
-
 
 # Establish a connection
 engine = create_engine(f'postgresql://{username}:{password}@{host}:{port}/{db_name}', pool_size=10, max_overflow=20)

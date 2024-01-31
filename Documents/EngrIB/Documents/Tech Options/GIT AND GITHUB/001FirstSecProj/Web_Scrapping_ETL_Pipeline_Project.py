@@ -107,7 +107,7 @@ from sqlalchemy import create_engine # To efficiently manage and reuse database 
 
 from sqlalchemy import create_engine
 username = 'postgres'
-password = '***********'
+password = '************'
 host = 'localhost'
 port = 5432
 db_name = 'Naija_Population'
@@ -136,14 +136,6 @@ table3.to_sql(dbt3, engine, if_exists='replace', index=False)
 # Close Connection
 engine.dispose()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

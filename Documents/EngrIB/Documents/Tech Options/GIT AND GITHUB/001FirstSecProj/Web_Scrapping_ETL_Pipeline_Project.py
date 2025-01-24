@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 # Step 1: Import Libraries i.e pandas
@@ -10,7 +9,6 @@ import pandas as pd
 
 # ## Extract data from website(worldometer)
 
-# In[2]:
 
 
 url = "https://www.worldometers.info/world-population/nigeria-population/"
